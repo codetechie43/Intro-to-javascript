@@ -25,7 +25,79 @@ console.log($ajjuBhai); // console
 
 
 // Starting data type "string"
- const namexampleString = "Sunita Devi";
+ const doubleQuote = "Sunita Devi";
  const singleQuote='tu hai pani pani';
- console.log(namexampleString);
+const backTicks = `hello ${doubleQuote}`;
+
+ console.log(doubleQuote); // console
  console.log(singleQuote);
+ console.log( backTicks);
+
+ // Starting data type "number"
+
+ const string = 'suju';
+ const number1 = 10;
+ const number2 = -5;
+
+ const result = string * number2;
+ const operation = number1 * number2;
+
+ console.log( typeof result); // console
+ console.log( typeof number1); // console
+ console.log( typeof number2); // console
+ console.log(  operation); // console
+
+
+ // Here we are starting with Boolean data type
+
+ //  only two values are possible true or false
+ // true - yes,correct,1
+ // false - no,incorrect,0
+
+ const isCool = true; // true or false type of boolean values
+
+ const agCool =false; // true or false type of boolean values
+
+ if(agCool) {
+     console.log('jimme is cool'); // if true
+ } else {
+     console.log('jimme is not cool'); // if false
+ }
+
+ const age = 21;
+ console.log(age > 20)
+
+
+ // here we are starting null and undefined data type
+
+ let rollNo = null;
+ console.log( typeof rollNo);
+
+
+ let x;
+  console.log(x);
+
+// sdtaring data type object
+
+ const person = {
+     name: 'suju',
+     age: 19,
+     job: 'Software Engineer'
+ };
+
+ //dot notaion
+ console.log( typeof person.age);
+
+ // Array 
+ const arr = [1, 2, 3, 4, 5];
+ console.log(arr);
+
+ const date = new Date();
+ console.log(date);
+
+
+ 
+ 
+
+ 
+
